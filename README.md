@@ -9,4 +9,4 @@ Linux
 - ufw status (check status firewall)
 - find /log  -type f/d -name *.log -mtime +7 < -exec ls -ltr {} \; >
 - last -F
-  last -F | grep "$(date 'date+%b %e')"
+  last -F | grep "$(date 'date+%b %e')" | aws '{print $1}' | sort | uniq
