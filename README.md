@@ -1,1 +1,6 @@
 # Devops-Zero-To-Hero
+
+Linux
+- ssh-keygen -t rsa
+- /var (lưu các logs của các services)
+  sudo du -sh * (xem mức chiếm dụng tài nguyên)
