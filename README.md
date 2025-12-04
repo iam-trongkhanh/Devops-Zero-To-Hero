@@ -7,3 +7,5 @@ Linux
 
 - systemctl status/start/stop <name_service>
 - ufw status (check status firewall)
+- find /log  -type f/d -name *.log -mtime +7 < -exec ls -ltr {} \; >
+- last -F
